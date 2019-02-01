@@ -10,6 +10,21 @@ public class CustomContainer implements EmbeddedServletContainerCustomizer {
 	@Override
 	public void customize(ConfigurableEmbeddedServletContainer container) {
 		// TODO Auto-generated method stub
+		
+		// test Line
+		
+		container.setPort(8080);
+		container.setContextPath("/mkyong");
+		container.setPort(8080);
+		container.setContextPath("/mkyong");
+		container.setPort(8080);
+		container.setContextPath("/mkyong");
+		container.setPort(8080);
+		container.setContextPath("/mkyong");
+		container.setPort(8080);
+		container.setContextPath("/mkyong");
+		container.setPort(8080);
+		container.setContextPath("/mkyong");
 		container.setPort(8080);
 		container.setContextPath("/mkyong");
 		
